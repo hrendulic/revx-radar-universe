@@ -4,6 +4,10 @@ Daily, fail-safe snapshot of public Revolut X EEA trading-pair configuration. Th
 
 Source: [Revolut X public API documentation](https://developer.revolut.com/docs/api/revolut-x-crypto-exchange).
 
+## Public JSON
+
+Stable URL: [pairs.json](https://hrendulic.github.io/revx-radar-universe/pairs.json). GitHub Pages serves the last published snapshot; it can lag briefly behind an Action commit. Check `updated_at` before using it.
+
 ## Refresh
 
 GitHub Actions runs daily at 03:17 UTC and can also be started manually with **Actions → Refresh Revolut X EEA universe → Run workflow**. It reads both public configuration endpoints without API keys:
