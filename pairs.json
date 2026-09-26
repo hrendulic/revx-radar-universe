@@ -1,0 +1,2623 @@
+{
+  "schema_version": 1,
+  "region": "EEA",
+  "updated_at": "2026-09-26T15:57:23Z",
+  "source": {
+    "pairs": "https://revx.revolut.com/api/1.0/public/configuration/pairs?region=EEA",
+    "currencies": "https://revx.revolut.com/api/1.0/public/configuration/currencies?region=EEA"
+  },
+  "pair_count": 384,
+  "active_pair_count": 384,
+  "asset_count": 300,
+  "assets": [
+    "1INCH",
+    "2Z",
+    "A8",
+    "AAVE",
+    "ABT",
+    "ACH",
+    "ACS",
+    "ADA",
+    "AERGO",
+    "AERO",
+    "AGLD",
+    "AI",
+    "AIOZ",
+    "AKT",
+    "ALCX",
+    "ALEO",
+    "ALEPH",
+    "ALGO",
+    "ALICE",
+    "AMP",
+    "ANKR",
+    "APE",
+    "API3",
+    "APT",
+    "ARB",
+    "ARKM",
+    "ARPA",
+    "ASM",
+    "AST",
+    "ATH",
+    "ATOM",
+    "AUCTION",
+    "AUDIO",
+    "AURORA",
+    "AVAX",
+    "AVNT",
+    "AVT",
+    "AWE",
+    "AXS",
+    "B3",
+    "BAL",
+    "BAND",
+    "BAT",
+    "BCH",
+    "BEAM",
+    "BENJI",
+    "BERA",
+    "BICO",
+    "BIGTIME",
+    "BLUR",
+    "BLZ",
+    "BNB",
+    "BNT",
+    "BOBA",
+    "BONK",
+    "BTC",
+    "BTRST",
+    "C98",
+    "CC",
+    "CELO",
+    "CELR",
+    "CHZ",
+    "CLANKER",
+    "COMP",
+    "COOKIE",
+    "COTI",
+    "COW",
+    "CRO",
+    "CRV",
+    "CTSI",
+    "CVC",
+    "CVX",
+    "DASH",
+    "DEGEN",
+    "DIA",
+    "DIMO",
+    "DOGE",
+    "DOGINME",
+    "DOGS",
+    "DOLO",
+    "DOT",
+    "DRIFT",
+    "DYDX",
+    "EDGE",
+    "EGLD",
+    "EIGEN",
+    "ELA",
+    "ENA",
+    "ENS",
+    "ETC",
+    "ETH",
+    "EUL",
+    "FAI",
+    "FARM",
+    "FET",
+    "FIDA",
+    "FIL",
+    "FLOKI",
+    "FLOW",
+    "FLR",
+    "FLUID",
+    "FORT",
+    "FORTH",
+    "GALA",
+    "GFI",
+    "GHST",
+    "GIGA",
+    "GLM",
+    "GMT",
+    "GODS",
+    "GRASS",
+    "GRT",
+    "GST",
+    "GTC",
+    "HBAR",
+    "HFT",
+    "HIGH",
+    "HNT",
+    "HONEY",
+    "HOPR",
+    "HYPE",
+    "ICP",
+    "IDEX",
+    "IDOS",
+    "ILV",
+    "IMU",
+    "IMX",
+    "INJ",
+    "IO",
+    "IOTX",
+    "IP",
+    "JASMY",
+    "JTO",
+    "JUP",
+    "KAITO",
+    "KARRAT",
+    "KAVA",
+    "KERNEL",
+    "KNC",
+    "KRL",
+    "KSM",
+    "KTA",
+    "L3",
+    "LA",
+    "LAYER",
+    "LCX",
+    "LDO",
+    "LINK",
+    "LMWR",
+    "LPT",
+    "LQTY",
+    "LRC",
+    "LRDS",
+    "LTC",
+    "MAGIC",
+    "MANA",
+    "MASK",
+    "MATH",
+    "MDT",
+    "ME",
+    "MELANIA",
+    "METIS",
+    "MEW",
+    "MINA",
+    "MLN",
+    "MNDE",
+    "MOG",
+    "MON",
+    "MOODENG",
+    "MORPHO",
+    "MSOL",
+    "NCT",
+    "NEAR",
+    "NEIRO",
+    "NEON",
+    "NKN",
+    "NMR",
+    "NOT",
+    "OCEAN",
+    "OFC",
+    "OGN",
+    "ONDO",
+    "OP",
+    "ORCA",
+    "OSMO",
+    "OXT",
+    "PARTI",
+    "PENDLE",
+    "PENGU",
+    "PEPE",
+    "PERP",
+    "PLUME",
+    "PNG",
+    "PNUT",
+    "POL",
+    "POLS",
+    "POND",
+    "PONKE",
+    "POPCAT",
+    "POWR",
+    "PRCL",
+    "PRIME",
+    "PRO",
+    "PROMPT",
+    "PROVE",
+    "PUMP",
+    "PUNDIX",
+    "PYR",
+    "PYTH",
+    "QI",
+    "QNT",
+    "RAD",
+    "RARE",
+    "RARI",
+    "RAY",
+    "RED",
+    "RENDER",
+    "REQ",
+    "REZ",
+    "RLC",
+    "RLS",
+    "ROSE",
+    "RPL",
+    "RSC",
+    "RSR",
+    "SAFE",
+    "SAND",
+    "SD",
+    "SEI",
+    "SENT",
+    "SHDW",
+    "SHIB",
+    "SHPING",
+    "SKL",
+    "SKY",
+    "SNX",
+    "SOL",
+    "SOMI",
+    "SPA",
+    "SPELL",
+    "SPK",
+    "SPX",
+    "SQD",
+    "STG",
+    "STORJ",
+    "STRK",
+    "STX",
+    "SUI",
+    "SUKU",
+    "SUPER",
+    "SUSHI",
+    "SWELL",
+    "SWFTC",
+    "SXT",
+    "SYRUP",
+    "T",
+    "TAIKO",
+    "TIA",
+    "TNSR",
+    "TOKEN",
+    "TON",
+    "TOSHI",
+    "TRAC",
+    "TRB",
+    "TREE",
+    "TRU",
+    "TRUMP",
+    "TRX",
+    "TURBO",
+    "UMA",
+    "UNI",
+    "USDC",
+    "VELO",
+    "VET",
+    "VOXEL",
+    "VTHO",
+    "VVV",
+    "W",
+    "WAL",
+    "WIF",
+    "WLD",
+    "WLFI",
+    "WOO",
+    "XAN",
+    "XCN",
+    "XDC",
+    "XLM",
+    "XPL",
+    "XRP",
+    "XTZ",
+    "XYO",
+    "YFI",
+    "ZAMA",
+    "ZEN",
+    "ZK",
+    "ZKC",
+    "ZKJ",
+    "ZORA",
+    "ZRO",
+    "ZRX"
+  ],
+  "active_pairs": [
+    "1INCH/EUR",
+    "1INCH/USD",
+    "2Z/USD",
+    "A8/USD",
+    "AAVE/EUR",
+    "AAVE/USD",
+    "ABT/USD",
+    "ACH/USD",
+    "ACS/USD",
+    "ADA/EUR",
+    "ADA/USD",
+    "ADA/USDC",
+    "AERGO/USD",
+    "AERO/USD",
+    "AGLD/USD",
+    "AI/USD",
+    "AIOZ/USD",
+    "AKT/USD",
+    "ALCX/USD",
+    "ALEO/USD",
+    "ALEPH/USD",
+    "ALGO/EUR",
+    "ALGO/USD",
+    "ALICE/USD",
+    "AMP/USD",
+    "ANKR/USD",
+    "APE/USD",
+    "API3/USD",
+    "APT/EUR",
+    "APT/USD",
+    "ARB/EUR",
+    "ARB/USD",
+    "ARKM/USD",
+    "ARPA/USD",
+    "ASM/USD",
+    "AST/USD",
+    "ATH/USD",
+    "ATOM/EUR",
+    "ATOM/USD",
+    "AUCTION/USD",
+    "AUDIO/USD",
+    "AURORA/USD",
+    "AVAX/EUR",
+    "AVAX/USD",
+    "AVAX/USDC",
+    "AVNT/EUR",
+    "AVNT/USD",
+    "AVT/USD",
+    "AWE/USD",
+    "AXS/USD",
+    "B3/USD",
+    "BAL/USD",
+    "BAND/USD",
+    "BAT/USD",
+    "BCH/EUR",
+    "BCH/USD",
+    "BCH/USDC",
+    "BEAM/USD",
+    "BENJI/USD",
+    "BERA/USD",
+    "BICO/USD",
+    "BIGTIME/USD",
+    "BLUR/USD",
+    "BLZ/USD",
+    "BNB/EUR",
+    "BNB/USD",
+    "BNB/USDC",
+    "BNT/USD",
+    "BOBA/USD",
+    "BONK/EUR",
+    "BONK/USD",
+    "BONK/USDC",
+    "BTC/EUR",
+    "BTC/USD",
+    "BTC/USDC",
+    "BTRST/USD",
+    "C98/USD",
+    "CC/USD",
+    "CELO/USD",
+    "CELR/USD",
+    "CHZ/EUR",
+    "CHZ/USD",
+    "CLANKER/USD",
+    "COMP/USD",
+    "COOKIE/USD",
+    "COTI/USD",
+    "COW/USD",
+    "CRO/USD",
+    "CRV/EUR",
+    "CRV/USD",
+    "CTSI/USD",
+    "CVC/USD",
+    "CVX/USD",
+    "DASH/EUR",
+    "DASH/USD",
+    "DEGEN/USD",
+    "DIA/USD",
+    "DIMO/USD",
+    "DOGE/EUR",
+    "DOGE/USD",
+    "DOGE/USDC",
+    "DOGINME/USD",
+    "DOGS/USD",
+    "DOLO/USD",
+    "DOT/EUR",
+    "DOT/USD",
+    "DOT/USDC",
+    "DRIFT/USD",
+    "DYDX/USD",
+    "EDGE/USD",
+    "EGLD/USD",
+    "EIGEN/USD",
+    "ELA/USD",
+    "ENA/EUR",
+    "ENA/USD",
+    "ENA/USDC",
+    "ENS/USD",
+    "ETC/EUR",
+    "ETC/USD",
+    "ETH/EUR",
+    "ETH/USD",
+    "ETH/USDC",
+    "EUL/USD",
+    "FAI/USD",
+    "FARM/USD",
+    "FET/EUR",
+    "FET/USD",
+    "FIDA/EUR",
+    "FIDA/USD",
+    "FIL/EUR",
+    "FIL/USD",
+    "FLOKI/EUR",
+    "FLOKI/USD",
+    "FLOW/USD",
+    "FLR/USD",
+    "FLUID/USD",
+    "FORT/USD",
+    "FORTH/USD",
+    "GALA/USD",
+    "GFI/USD",
+    "GHST/USD",
+    "GIGA/USD",
+    "GLM/USD",
+    "GMT/USD",
+    "GODS/USD",
+    "GRASS/USD",
+    "GRT/USD",
+    "GST/USD",
+    "GTC/USD",
+    "HBAR/EUR",
+    "HBAR/USD",
+    "HBAR/USDC",
+    "HFT/USD",
+    "HIGH/USD",
+    "HNT/USD",
+    "HONEY/USD",
+    "HOPR/USD",
+    "HYPE/EUR",
+    "HYPE/USD",
+    "ICP/EUR",
+    "ICP/USD",
+    "IDEX/USD",
+    "IDOS/USD",
+    "ILV/USD",
+    "IMU/USD",
+    "IMX/USD",
+    "INJ/EUR",
+    "INJ/USD",
+    "IO/USD",
+    "IOTX/USD",
+    "IP/USD",
+    "JASMY/EUR",
+    "JASMY/USD",
+    "JTO/USD",
+    "JUP/USD",
+    "JUP/USDC",
+    "KAITO/USD",
+    "KARRAT/USD",
+    "KAVA/USD",
+    "KERNEL/USD",
+    "KNC/USD",
+    "KRL/USD",
+    "KSM/USD",
+    "KTA/USD",
+    "L3/USD",
+    "LA/USD",
+    "LAYER/USD",
+    "LCX/USD",
+    "LDO/EUR",
+    "LDO/USD",
+    "LINK/EUR",
+    "LINK/USD",
+    "LINK/USDC",
+    "LMWR/USD",
+    "LPT/USD",
+    "LQTY/USD",
+    "LRC/USD",
+    "LRDS/USD",
+    "LTC/EUR",
+    "LTC/USD",
+    "LTC/USDC",
+    "MAGIC/EUR",
+    "MAGIC/USD",
+    "MANA/USD",
+    "MASK/USD",
+    "MATH/USD",
+    "MDT/USD",
+    "ME/USD",
+    "MELANIA/USD",
+    "METIS/USD",
+    "MEW/USD",
+    "MINA/USD",
+    "MLN/USD",
+    "MNDE/USD",
+    "MOG/USD",
+    "MON/USD",
+    "MOODENG/USD",
+    "MORPHO/USD",
+    "MSOL/USD",
+    "NCT/USD",
+    "NEAR/EUR",
+    "NEAR/USD",
+    "NEIRO/USD",
+    "NEON/USD",
+    "NKN/USD",
+    "NMR/USD",
+    "NOT/USD",
+    "OCEAN/USD",
+    "OFC/USD",
+    "OGN/USD",
+    "ONDO/EUR",
+    "ONDO/USD",
+    "OP/EUR",
+    "OP/USD",
+    "ORCA/USD",
+    "OSMO/USD",
+    "OXT/USD",
+    "PARTI/USD",
+    "PENDLE/EUR",
+    "PENDLE/USD",
+    "PENGU/EUR",
+    "PENGU/USD",
+    "PEPE/EUR",
+    "PEPE/USD",
+    "PEPE/USDC",
+    "PERP/USD",
+    "PLUME/USD",
+    "PNG/USD",
+    "PNUT/USD",
+    "POL/EUR",
+    "POL/USD",
+    "POLS/USD",
+    "POND/USD",
+    "PONKE/USD",
+    "POPCAT/USD",
+    "POWR/USD",
+    "PRCL/USD",
+    "PRIME/USD",
+    "PRO/USD",
+    "PROMPT/USD",
+    "PROVE/USD",
+    "PUMP/USD",
+    "PUNDIX/USD",
+    "PYR/USD",
+    "PYTH/USD",
+    "QI/USD",
+    "QNT/USD",
+    "RAD/USD",
+    "RARE/USD",
+    "RARI/USD",
+    "RAY/USD",
+    "RED/USD",
+    "RENDER/EUR",
+    "RENDER/USD",
+    "REQ/USD",
+    "REZ/USD",
+    "RLC/USD",
+    "RLS/USD",
+    "ROSE/USD",
+    "RPL/USD",
+    "RSC/USD",
+    "RSR/USD",
+    "SAFE/USD",
+    "SAND/USD",
+    "SD/USD",
+    "SEI/EUR",
+    "SEI/USD",
+    "SENT/USD",
+    "SHDW/USD",
+    "SHIB/EUR",
+    "SHIB/USD",
+    "SHIB/USDC",
+    "SHPING/USD",
+    "SKL/USD",
+    "SKY/USD",
+    "SNX/USD",
+    "SOL/EUR",
+    "SOL/USD",
+    "SOL/USDC",
+    "SOMI/USD",
+    "SPA/USD",
+    "SPELL/USD",
+    "SPK/USD",
+    "SPX/EUR",
+    "SPX/USD",
+    "SQD/USD",
+    "STG/USD",
+    "STORJ/USD",
+    "STRK/EUR",
+    "STRK/USD",
+    "STX/EUR",
+    "STX/USD",
+    "SUI/EUR",
+    "SUI/USD",
+    "SUI/USDC",
+    "SUKU/USD",
+    "SUPER/USD",
+    "SUSHI/USD",
+    "SWELL/USD",
+    "SWFTC/USD",
+    "SXT/USD",
+    "SYRUP/USD",
+    "T/USD",
+    "TAIKO/USD",
+    "TIA/EUR",
+    "TIA/USD",
+    "TNSR/USD",
+    "TOKEN/USD",
+    "TON/EUR",
+    "TON/USD",
+    "TON/USDC",
+    "TOSHI/USD",
+    "TRAC/USD",
+    "TRB/USD",
+    "TREE/USD",
+    "TRU/USD",
+    "TRUMP/EUR",
+    "TRUMP/USD",
+    "TRUMP/USDC",
+    "TRX/EUR",
+    "TRX/USD",
+    "TRX/USDC",
+    "TURBO/USD",
+    "UMA/USD",
+    "UNI/EUR",
+    "UNI/USD",
+    "USDC/EUR",
+    "USDC/USD",
+    "VELO/USD",
+    "VET/USD",
+    "VOXEL/USD",
+    "VTHO/USD",
+    "VVV/EUR",
+    "VVV/USD",
+    "W/USD",
+    "WAL/USD",
+    "WIF/EUR",
+    "WIF/USD",
+    "WLD/EUR",
+    "WLD/USD",
+    "WLFI/USD",
+    "WOO/USD",
+    "XAN/USD",
+    "XCN/USD",
+    "XDC/USD",
+    "XLM/EUR",
+    "XLM/USD",
+    "XLM/USDC",
+    "XPL/USD",
+    "XRP/EUR",
+    "XRP/USD",
+    "XRP/USDC",
+    "XTZ/USD",
+    "XYO/USD",
+    "YFI/USD",
+    "ZAMA/USD",
+    "ZEN/USD",
+    "ZK/USD",
+    "ZKC/USD",
+    "ZKJ/USD",
+    "ZORA/USD",
+    "ZRO/EUR",
+    "ZRO/USD",
+    "ZRX/USD"
+  ],
+  "pairs": {
+    "1INCH/EUR": {
+      "base": "1INCH",
+      "quote": "EUR",
+      "status": "active"
+    },
+    "1INCH/USD": {
+      "base": "1INCH",
+      "quote": "USD",
+      "status": "active"
+    },
+    "2Z/USD": {
+      "base": "2Z",
+      "quote": "USD",
+      "status": "active"
+    },
+    "A8/USD": {
+      "base": "A8",
+      "quote": "USD",
+      "status": "active"
+    },
+    "AAVE/EUR": {
+      "base": "AAVE",
+      "quote": "EUR",
+      "status": "active"
+    },
+    "AAVE/USD": {
+      "base": "AAVE",
+      "quote": "USD",
+      "status": "active"
+    },
+    "ABT/USD": {
+      "base": "ABT",
+      "quote": "USD",
+      "status": "active"
+    },
+    "ACH/USD": {
+      "base": "ACH",
+      "quote": "USD",
+      "status": "active"
+    },
+    "ACS/USD": {
+      "base": "ACS",
+      "quote": "USD",
+      "status": "active"
+    },
+    "ADA/EUR": {
+      "base": "ADA",
+      "quote": "EUR",
+      "status": "active"
+    },
+    "ADA/USD": {
+      "base": "ADA",
+      "quote": "USD",
+      "status": "active"
+    },
+    "ADA/USDC": {
+      "base": "ADA",
+      "quote": "USDC",
+      "status": "active"
+    },
+    "AERGO/USD": {
+      "base": "AERGO",
+      "quote": "USD",
+      "status": "active"
+    },
+    "AERO/USD": {
+      "base": "AERO",
+      "quote": "USD",
+      "status": "active"
+    },
+    "AGLD/USD": {
+      "base": "AGLD",
+      "quote": "USD",
+      "status": "active"
+    },
+    "AI/USD": {
+      "base": "AI",
+      "quote": "USD",
+      "status": "active"
+    },
+    "AIOZ/USD": {
+      "base": "AIOZ",
+      "quote": "USD",
+      "status": "active"
+    },
+    "AKT/USD": {
+      "base": "AKT",
+      "quote": "USD",
+      "status": "active"
+    },
+    "ALCX/USD": {
+      "base": "ALCX",
+      "quote": "USD",
+      "status": "active"
+    },
+    "ALEO/USD": {
+      "base": "ALEO",
+      "quote": "USD",
+      "status": "active"
+    },
+    "ALEPH/USD": {
+      "base": "ALEPH",
+      "quote": "USD",
+      "status": "active"
+    },
+    "ALGO/EUR": {
+      "base": "ALGO",
+      "quote": "EUR",
+      "status": "active"
+    },
+    "ALGO/USD": {
+      "base": "ALGO",
+      "quote": "USD",
+      "status": "active"
+    },
+    "ALICE/USD": {
+      "base": "ALICE",
+      "quote": "USD",
+      "status": "active"
+    },
+    "AMP/USD": {
+      "base": "AMP",
+      "quote": "USD",
+      "status": "active"
+    },
+    "ANKR/USD": {
+      "base": "ANKR",
+      "quote": "USD",
+      "status": "active"
+    },
+    "APE/USD": {
+      "base": "APE",
+      "quote": "USD",
+      "status": "active"
+    },
+    "API3/USD": {
+      "base": "API3",
+      "quote": "USD",
+      "status": "active"
+    },
+    "APT/EUR": {
+      "base": "APT",
+      "quote": "EUR",
+      "status": "active"
+    },
+    "APT/USD": {
+      "base": "APT",
+      "quote": "USD",
+      "status": "active"
+    },
+    "ARB/EUR": {
+      "base": "ARB",
+      "quote": "EUR",
+      "status": "active"
+    },
+    "ARB/USD": {
+      "base": "ARB",
+      "quote": "USD",
+      "status": "active"
+    },
+    "ARKM/USD": {
+      "base": "ARKM",
+      "quote": "USD",
+      "status": "active"
+    },
+    "ARPA/USD": {
+      "base": "ARPA",
+      "quote": "USD",
+      "status": "active"
+    },
+    "ASM/USD": {
+      "base": "ASM",
+      "quote": "USD",
+      "status": "active"
+    },
+    "AST/USD": {
+      "base": "AST",
+      "quote": "USD",
+      "status": "active"
+    },
+    "ATH/USD": {
+      "base": "ATH",
+      "quote": "USD",
+      "status": "active"
+    },
+    "ATOM/EUR": {
+      "base": "ATOM",
+      "quote": "EUR",
+      "status": "active"
+    },
+    "ATOM/USD": {
+      "base": "ATOM",
+      "quote": "USD",
+      "status": "active"
+    },
+    "AUCTION/USD": {
+      "base": "AUCTION",
+      "quote": "USD",
+      "status": "active"
+    },
+    "AUDIO/USD": {
+      "base": "AUDIO",
+      "quote": "USD",
+      "status": "active"
+    },
+    "AURORA/USD": {
+      "base": "AURORA",
+      "quote": "USD",
+      "status": "active"
+    },
+    "AVAX/EUR": {
+      "base": "AVAX",
+      "quote": "EUR",
+      "status": "active"
+    },
+    "AVAX/USD": {
+      "base": "AVAX",
+      "quote": "USD",
+      "status": "active"
+    },
+    "AVAX/USDC": {
+      "base": "AVAX",
+      "quote": "USDC",
+      "status": "active"
+    },
+    "AVNT/EUR": {
+      "base": "AVNT",
+      "quote": "EUR",
+      "status": "active"
+    },
+    "AVNT/USD": {
+      "base": "AVNT",
+      "quote": "USD",
+      "status": "active"
+    },
+    "AVT/USD": {
+      "base": "AVT",
+      "quote": "USD",
+      "status": "active"
+    },
+    "AWE/USD": {
+      "base": "AWE",
+      "quote": "USD",
+      "status": "active"
+    },
+    "AXS/USD": {
+      "base": "AXS",
+      "quote": "USD",
+      "status": "active"
+    },
+    "B3/USD": {
+      "base": "B3",
+      "quote": "USD",
+      "status": "active"
+    },
+    "BAL/USD": {
+      "base": "BAL",
+      "quote": "USD",
+      "status": "active"
+    },
+    "BAND/USD": {
+      "base": "BAND",
+      "quote": "USD",
+      "status": "active"
+    },
+    "BAT/USD": {
+      "base": "BAT",
+      "quote": "USD",
+      "status": "active"
+    },
+    "BCH/EUR": {
+      "base": "BCH",
+      "quote": "EUR",
+      "status": "active"
+    },
+    "BCH/USD": {
+      "base": "BCH",
+      "quote": "USD",
+      "status": "active"
+    },
+    "BCH/USDC": {
+      "base": "BCH",
+      "quote": "USDC",
+      "status": "active"
+    },
+    "BEAM/USD": {
+      "base": "BEAM",
+      "quote": "USD",
+      "status": "active"
+    },
+    "BENJI/USD": {
+      "base": "BENJI",
+      "quote": "USD",
+      "status": "active"
+    },
+    "BERA/USD": {
+      "base": "BERA",
+      "quote": "USD",
+      "status": "active"
+    },
+    "BICO/USD": {
+      "base": "BICO",
+      "quote": "USD",
+      "status": "active"
+    },
+    "BIGTIME/USD": {
+      "base": "BIGTIME",
+      "quote": "USD",
+      "status": "active"
+    },
+    "BLUR/USD": {
+      "base": "BLUR",
+      "quote": "USD",
+      "status": "active"
+    },
+    "BLZ/USD": {
+      "base": "BLZ",
+      "quote": "USD",
+      "status": "active"
+    },
+    "BNB/EUR": {
+      "base": "BNB",
+      "quote": "EUR",
+      "status": "active"
+    },
+    "BNB/USD": {
+      "base": "BNB",
+      "quote": "USD",
+      "status": "active"
+    },
+    "BNB/USDC": {
+      "base": "BNB",
+      "quote": "USDC",
+      "status": "active"
+    },
+    "BNT/USD": {
+      "base": "BNT",
+      "quote": "USD",
+      "status": "active"
+    },
+    "BOBA/USD": {
+      "base": "BOBA",
+      "quote": "USD",
+      "status": "active"
+    },
+    "BONK/EUR": {
+      "base": "BONK",
+      "quote": "EUR",
+      "status": "active"
+    },
+    "BONK/USD": {
+      "base": "BONK",
+      "quote": "USD",
+      "status": "active"
+    },
+    "BONK/USDC": {
+      "base": "BONK",
+      "quote": "USDC",
+      "status": "active"
+    },
+    "BTC/EUR": {
+      "base": "BTC",
+      "quote": "EUR",
+      "status": "active"
+    },
+    "BTC/USD": {
+      "base": "BTC",
+      "quote": "USD",
+      "status": "active"
+    },
+    "BTC/USDC": {
+      "base": "BTC",
+      "quote": "USDC",
+      "status": "active"
+    },
+    "BTRST/USD": {
+      "base": "BTRST",
+      "quote": "USD",
+      "status": "active"
+    },
+    "C98/USD": {
+      "base": "C98",
+      "quote": "USD",
+      "status": "active"
+    },
+    "CC/USD": {
+      "base": "CC",
+      "quote": "USD",
+      "status": "active"
+    },
+    "CELO/USD": {
+      "base": "CELO",
+      "quote": "USD",
+      "status": "active"
+    },
+    "CELR/USD": {
+      "base": "CELR",
+      "quote": "USD",
+      "status": "active"
+    },
+    "CHZ/EUR": {
+      "base": "CHZ",
+      "quote": "EUR",
+      "status": "active"
+    },
+    "CHZ/USD": {
+      "base": "CHZ",
+      "quote": "USD",
+      "status": "active"
+    },
+    "CLANKER/USD": {
+      "base": "CLANKER",
+      "quote": "USD",
+      "status": "active"
+    },
+    "COMP/USD": {
+      "base": "COMP",
+      "quote": "USD",
+      "status": "active"
+    },
+    "COOKIE/USD": {
+      "base": "COOKIE",
+      "quote": "USD",
+      "status": "active"
+    },
+    "COTI/USD": {
+      "base": "COTI",
+      "quote": "USD",
+      "status": "active"
+    },
+    "COW/USD": {
+      "base": "COW",
+      "quote": "USD",
+      "status": "active"
+    },
+    "CRO/USD": {
+      "base": "CRO",
+      "quote": "USD",
+      "status": "active"
+    },
+    "CRV/EUR": {
+      "base": "CRV",
+      "quote": "EUR",
+      "status": "active"
+    },
+    "CRV/USD": {
+      "base": "CRV",
+      "quote": "USD",
+      "status": "active"
+    },
+    "CTSI/USD": {
+      "base": "CTSI",
+      "quote": "USD",
+      "status": "active"
+    },
+    "CVC/USD": {
+      "base": "CVC",
+      "quote": "USD",
+      "status": "active"
+    },
+    "CVX/USD": {
+      "base": "CVX",
+      "quote": "USD",
+      "status": "active"
+    },
+    "DASH/EUR": {
+      "base": "DASH",
+      "quote": "EUR",
+      "status": "active"
+    },
+    "DASH/USD": {
+      "base": "DASH",
+      "quote": "USD",
+      "status": "active"
+    },
+    "DEGEN/USD": {
+      "base": "DEGEN",
+      "quote": "USD",
+      "status": "active"
+    },
+    "DIA/USD": {
+      "base": "DIA",
+      "quote": "USD",
+      "status": "active"
+    },
+    "DIMO/USD": {
+      "base": "DIMO",
+      "quote": "USD",
+      "status": "active"
+    },
+    "DOGE/EUR": {
+      "base": "DOGE",
+      "quote": "EUR",
+      "status": "active"
+    },
+    "DOGE/USD": {
+      "base": "DOGE",
+      "quote": "USD",
+      "status": "active"
+    },
+    "DOGE/USDC": {
+      "base": "DOGE",
+      "quote": "USDC",
+      "status": "active"
+    },
+    "DOGINME/USD": {
+      "base": "DOGINME",
+      "quote": "USD",
+      "status": "active"
+    },
+    "DOGS/USD": {
+      "base": "DOGS",
+      "quote": "USD",
+      "status": "active"
+    },
+    "DOLO/USD": {
+      "base": "DOLO",
+      "quote": "USD",
+      "status": "active"
+    },
+    "DOT/EUR": {
+      "base": "DOT",
+      "quote": "EUR",
+      "status": "active"
+    },
+    "DOT/USD": {
+      "base": "DOT",
+      "quote": "USD",
+      "status": "active"
+    },
+    "DOT/USDC": {
+      "base": "DOT",
+      "quote": "USDC",
+      "status": "active"
+    },
+    "DRIFT/USD": {
+      "base": "DRIFT",
+      "quote": "USD",
+      "status": "active"
+    },
+    "DYDX/USD": {
+      "base": "DYDX",
+      "quote": "USD",
+      "status": "active"
+    },
+    "EDGE/USD": {
+      "base": "EDGE",
+      "quote": "USD",
+      "status": "active"
+    },
+    "EGLD/USD": {
+      "base": "EGLD",
+      "quote": "USD",
+      "status": "active"
+    },
+    "EIGEN/USD": {
+      "base": "EIGEN",
+      "quote": "USD",
+      "status": "active"
+    },
+    "ELA/USD": {
+      "base": "ELA",
+      "quote": "USD",
+      "status": "active"
+    },
+    "ENA/EUR": {
+      "base": "ENA",
+      "quote": "EUR",
+      "status": "active"
+    },
+    "ENA/USD": {
+      "base": "ENA",
+      "quote": "USD",
+      "status": "active"
+    },
+    "ENA/USDC": {
+      "base": "ENA",
+      "quote": "USDC",
+      "status": "active"
+    },
+    "ENS/USD": {
+      "base": "ENS",
+      "quote": "USD",
+      "status": "active"
+    },
+    "ETC/EUR": {
+      "base": "ETC",
+      "quote": "EUR",
+      "status": "active"
+    },
+    "ETC/USD": {
+      "base": "ETC",
+      "quote": "USD",
+      "status": "active"
+    },
+    "ETH/EUR": {
+      "base": "ETH",
+      "quote": "EUR",
+      "status": "active"
+    },
+    "ETH/USD": {
+      "base": "ETH",
+      "quote": "USD",
+      "status": "active"
+    },
+    "ETH/USDC": {
+      "base": "ETH",
+      "quote": "USDC",
+      "status": "active"
+    },
+    "EUL/USD": {
+      "base": "EUL",
+      "quote": "USD",
+      "status": "active"
+    },
+    "FAI/USD": {
+      "base": "FAI",
+      "quote": "USD",
+      "status": "active"
+    },
+    "FARM/USD": {
+      "base": "FARM",
+      "quote": "USD",
+      "status": "active"
+    },
+    "FET/EUR": {
+      "base": "FET",
+      "quote": "EUR",
+      "status": "active"
+    },
+    "FET/USD": {
+      "base": "FET",
+      "quote": "USD",
+      "status": "active"
+    },
+    "FIDA/EUR": {
+      "base": "FIDA",
+      "quote": "EUR",
+      "status": "active"
+    },
+    "FIDA/USD": {
+      "base": "FIDA",
+      "quote": "USD",
+      "status": "active"
+    },
+    "FIL/EUR": {
+      "base": "FIL",
+      "quote": "EUR",
+      "status": "active"
+    },
+    "FIL/USD": {
+      "base": "FIL",
+      "quote": "USD",
+      "status": "active"
+    },
+    "FLOKI/EUR": {
+      "base": "FLOKI",
+      "quote": "EUR",
+      "status": "active"
+    },
+    "FLOKI/USD": {
+      "base": "FLOKI",
+      "quote": "USD",
+      "status": "active"
+    },
+    "FLOW/USD": {
+      "base": "FLOW",
+      "quote": "USD",
+      "status": "active"
+    },
+    "FLR/USD": {
+      "base": "FLR",
+      "quote": "USD",
+      "status": "active"
+    },
+    "FLUID/USD": {
+      "base": "FLUID",
+      "quote": "USD",
+      "status": "active"
+    },
+    "FORT/USD": {
+      "base": "FORT",
+      "quote": "USD",
+      "status": "active"
+    },
+    "FORTH/USD": {
+      "base": "FORTH",
+      "quote": "USD",
+      "status": "active"
+    },
+    "GALA/USD": {
+      "base": "GALA",
+      "quote": "USD",
+      "status": "active"
+    },
+    "GFI/USD": {
+      "base": "GFI",
+      "quote": "USD",
+      "status": "active"
+    },
+    "GHST/USD": {
+      "base": "GHST",
+      "quote": "USD",
+      "status": "active"
+    },
+    "GIGA/USD": {
+      "base": "GIGA",
+      "quote": "USD",
+      "status": "active"
+    },
+    "GLM/USD": {
+      "base": "GLM",
+      "quote": "USD",
+      "status": "active"
+    },
+    "GMT/USD": {
+      "base": "GMT",
+      "quote": "USD",
+      "status": "active"
+    },
+    "GODS/USD": {
+      "base": "GODS",
+      "quote": "USD",
+      "status": "active"
+    },
+    "GRASS/USD": {
+      "base": "GRASS",
+      "quote": "USD",
+      "status": "active"
+    },
+    "GRT/USD": {
+      "base": "GRT",
+      "quote": "USD",
+      "status": "active"
+    },
+    "GST/USD": {
+      "base": "GST",
+      "quote": "USD",
+      "status": "active"
+    },
+    "GTC/USD": {
+      "base": "GTC",
+      "quote": "USD",
+      "status": "active"
+    },
+    "HBAR/EUR": {
+      "base": "HBAR",
+      "quote": "EUR",
+      "status": "active"
+    },
+    "HBAR/USD": {
+      "base": "HBAR",
+      "quote": "USD",
+      "status": "active"
+    },
+    "HBAR/USDC": {
+      "base": "HBAR",
+      "quote": "USDC",
+      "status": "active"
+    },
+    "HFT/USD": {
+      "base": "HFT",
+      "quote": "USD",
+      "status": "active"
+    },
+    "HIGH/USD": {
+      "base": "HIGH",
+      "quote": "USD",
+      "status": "active"
+    },
+    "HNT/USD": {
+      "base": "HNT",
+      "quote": "USD",
+      "status": "active"
+    },
+    "HONEY/USD": {
+      "base": "HONEY",
+      "quote": "USD",
+      "status": "active"
+    },
+    "HOPR/USD": {
+      "base": "HOPR",
+      "quote": "USD",
+      "status": "active"
+    },
+    "HYPE/EUR": {
+      "base": "HYPE",
+      "quote": "EUR",
+      "status": "active"
+    },
+    "HYPE/USD": {
+      "base": "HYPE",
+      "quote": "USD",
+      "status": "active"
+    },
+    "ICP/EUR": {
+      "base": "ICP",
+      "quote": "EUR",
+      "status": "active"
+    },
+    "ICP/USD": {
+      "base": "ICP",
+      "quote": "USD",
+      "status": "active"
+    },
+    "IDEX/USD": {
+      "base": "IDEX",
+      "quote": "USD",
+      "status": "active"
+    },
+    "IDOS/USD": {
+      "base": "IDOS",
+      "quote": "USD",
+      "status": "active"
+    },
+    "ILV/USD": {
+      "base": "ILV",
+      "quote": "USD",
+      "status": "active"
+    },
+    "IMU/USD": {
+      "base": "IMU",
+      "quote": "USD",
+      "status": "active"
+    },
+    "IMX/USD": {
+      "base": "IMX",
+      "quote": "USD",
+      "status": "active"
+    },
+    "INJ/EUR": {
+      "base": "INJ",
+      "quote": "EUR",
+      "status": "active"
+    },
+    "INJ/USD": {
+      "base": "INJ",
+      "quote": "USD",
+      "status": "active"
+    },
+    "IO/USD": {
+      "base": "IO",
+      "quote": "USD",
+      "status": "active"
+    },
+    "IOTX/USD": {
+      "base": "IOTX",
+      "quote": "USD",
+      "status": "active"
+    },
+    "IP/USD": {
+      "base": "IP",
+      "quote": "USD",
+      "status": "active"
+    },
+    "JASMY/EUR": {
+      "base": "JASMY",
+      "quote": "EUR",
+      "status": "active"
+    },
+    "JASMY/USD": {
+      "base": "JASMY",
+      "quote": "USD",
+      "status": "active"
+    },
+    "JTO/USD": {
+      "base": "JTO",
+      "quote": "USD",
+      "status": "active"
+    },
+    "JUP/USD": {
+      "base": "JUP",
+      "quote": "USD",
+      "status": "active"
+    },
+    "JUP/USDC": {
+      "base": "JUP",
+      "quote": "USDC",
+      "status": "active"
+    },
+    "KAITO/USD": {
+      "base": "KAITO",
+      "quote": "USD",
+      "status": "active"
+    },
+    "KARRAT/USD": {
+      "base": "KARRAT",
+      "quote": "USD",
+      "status": "active"
+    },
+    "KAVA/USD": {
+      "base": "KAVA",
+      "quote": "USD",
+      "status": "active"
+    },
+    "KERNEL/USD": {
+      "base": "KERNEL",
+      "quote": "USD",
+      "status": "active"
+    },
+    "KNC/USD": {
+      "base": "KNC",
+      "quote": "USD",
+      "status": "active"
+    },
+    "KRL/USD": {
+      "base": "KRL",
+      "quote": "USD",
+      "status": "active"
+    },
+    "KSM/USD": {
+      "base": "KSM",
+      "quote": "USD",
+      "status": "active"
+    },
+    "KTA/USD": {
+      "base": "KTA",
+      "quote": "USD",
+      "status": "active"
+    },
+    "L3/USD": {
+      "base": "L3",
+      "quote": "USD",
+      "status": "active"
+    },
+    "LA/USD": {
+      "base": "LA",
+      "quote": "USD",
+      "status": "active"
+    },
+    "LAYER/USD": {
+      "base": "LAYER",
+      "quote": "USD",
+      "status": "active"
+    },
+    "LCX/USD": {
+      "base": "LCX",
+      "quote": "USD",
+      "status": "active"
+    },
+    "LDO/EUR": {
+      "base": "LDO",
+      "quote": "EUR",
+      "status": "active"
+    },
+    "LDO/USD": {
+      "base": "LDO",
+      "quote": "USD",
+      "status": "active"
+    },
+    "LINK/EUR": {
+      "base": "LINK",
+      "quote": "EUR",
+      "status": "active"
+    },
+    "LINK/USD": {
+      "base": "LINK",
+      "quote": "USD",
+      "status": "active"
+    },
+    "LINK/USDC": {
+      "base": "LINK",
+      "quote": "USDC",
+      "status": "active"
+    },
+    "LMWR/USD": {
+      "base": "LMWR",
+      "quote": "USD",
+      "status": "active"
+    },
+    "LPT/USD": {
+      "base": "LPT",
+      "quote": "USD",
+      "status": "active"
+    },
+    "LQTY/USD": {
+      "base": "LQTY",
+      "quote": "USD",
+      "status": "active"
+    },
+    "LRC/USD": {
+      "base": "LRC",
+      "quote": "USD",
+      "status": "active"
+    },
+    "LRDS/USD": {
+      "base": "LRDS",
+      "quote": "USD",
+      "status": "active"
+    },
+    "LTC/EUR": {
+      "base": "LTC",
+      "quote": "EUR",
+      "status": "active"
+    },
+    "LTC/USD": {
+      "base": "LTC",
+      "quote": "USD",
+      "status": "active"
+    },
+    "LTC/USDC": {
+      "base": "LTC",
+      "quote": "USDC",
+      "status": "active"
+    },
+    "MAGIC/EUR": {
+      "base": "MAGIC",
+      "quote": "EUR",
+      "status": "active"
+    },
+    "MAGIC/USD": {
+      "base": "MAGIC",
+      "quote": "USD",
+      "status": "active"
+    },
+    "MANA/USD": {
+      "base": "MANA",
+      "quote": "USD",
+      "status": "active"
+    },
+    "MASK/USD": {
+      "base": "MASK",
+      "quote": "USD",
+      "status": "active"
+    },
+    "MATH/USD": {
+      "base": "MATH",
+      "quote": "USD",
+      "status": "active"
+    },
+    "MDT/USD": {
+      "base": "MDT",
+      "quote": "USD",
+      "status": "active"
+    },
+    "ME/USD": {
+      "base": "ME",
+      "quote": "USD",
+      "status": "active"
+    },
+    "MELANIA/USD": {
+      "base": "MELANIA",
+      "quote": "USD",
+      "status": "active"
+    },
+    "METIS/USD": {
+      "base": "METIS",
+      "quote": "USD",
+      "status": "active"
+    },
+    "MEW/USD": {
+      "base": "MEW",
+      "quote": "USD",
+      "status": "active"
+    },
+    "MINA/USD": {
+      "base": "MINA",
+      "quote": "USD",
+      "status": "active"
+    },
+    "MLN/USD": {
+      "base": "MLN",
+      "quote": "USD",
+      "status": "active"
+    },
+    "MNDE/USD": {
+      "base": "MNDE",
+      "quote": "USD",
+      "status": "active"
+    },
+    "MOG/USD": {
+      "base": "MOG",
+      "quote": "USD",
+      "status": "active"
+    },
+    "MON/USD": {
+      "base": "MON",
+      "quote": "USD",
+      "status": "active"
+    },
+    "MOODENG/USD": {
+      "base": "MOODENG",
+      "quote": "USD",
+      "status": "active"
+    },
+    "MORPHO/USD": {
+      "base": "MORPHO",
+      "quote": "USD",
+      "status": "active"
+    },
+    "MSOL/USD": {
+      "base": "MSOL",
+      "quote": "USD",
+      "status": "active"
+    },
+    "NCT/USD": {
+      "base": "NCT",
+      "quote": "USD",
+      "status": "active"
+    },
+    "NEAR/EUR": {
+      "base": "NEAR",
+      "quote": "EUR",
+      "status": "active"
+    },
+    "NEAR/USD": {
+      "base": "NEAR",
+      "quote": "USD",
+      "status": "active"
+    },
+    "NEIRO/USD": {
+      "base": "NEIRO",
+      "quote": "USD",
+      "status": "active"
+    },
+    "NEON/USD": {
+      "base": "NEON",
+      "quote": "USD",
+      "status": "active"
+    },
+    "NKN/USD": {
+      "base": "NKN",
+      "quote": "USD",
+      "status": "active"
+    },
+    "NMR/USD": {
+      "base": "NMR",
+      "quote": "USD",
+      "status": "active"
+    },
+    "NOT/USD": {
+      "base": "NOT",
+      "quote": "USD",
+      "status": "active"
+    },
+    "OCEAN/USD": {
+      "base": "OCEAN",
+      "quote": "USD",
+      "status": "active"
+    },
+    "OFC/USD": {
+      "base": "OFC",
+      "quote": "USD",
+      "status": "active"
+    },
+    "OGN/USD": {
+      "base": "OGN",
+      "quote": "USD",
+      "status": "active"
+    },
+    "ONDO/EUR": {
+      "base": "ONDO",
+      "quote": "EUR",
+      "status": "active"
+    },
+    "ONDO/USD": {
+      "base": "ONDO",
+      "quote": "USD",
+      "status": "active"
+    },
+    "OP/EUR": {
+      "base": "OP",
+      "quote": "EUR",
+      "status": "active"
+    },
+    "OP/USD": {
+      "base": "OP",
+      "quote": "USD",
+      "status": "active"
+    },
+    "ORCA/USD": {
+      "base": "ORCA",
+      "quote": "USD",
+      "status": "active"
+    },
+    "OSMO/USD": {
+      "base": "OSMO",
+      "quote": "USD",
+      "status": "active"
+    },
+    "OXT/USD": {
+      "base": "OXT",
+      "quote": "USD",
+      "status": "active"
+    },
+    "PARTI/USD": {
+      "base": "PARTI",
+      "quote": "USD",
+      "status": "active"
+    },
+    "PENDLE/EUR": {
+      "base": "PENDLE",
+      "quote": "EUR",
+      "status": "active"
+    },
+    "PENDLE/USD": {
+      "base": "PENDLE",
+      "quote": "USD",
+      "status": "active"
+    },
+    "PENGU/EUR": {
+      "base": "PENGU",
+      "quote": "EUR",
+      "status": "active"
+    },
+    "PENGU/USD": {
+      "base": "PENGU",
+      "quote": "USD",
+      "status": "active"
+    },
+    "PEPE/EUR": {
+      "base": "PEPE",
+      "quote": "EUR",
+      "status": "active"
+    },
+    "PEPE/USD": {
+      "base": "PEPE",
+      "quote": "USD",
+      "status": "active"
+    },
+    "PEPE/USDC": {
+      "base": "PEPE",
+      "quote": "USDC",
+      "status": "active"
+    },
+    "PERP/USD": {
+      "base": "PERP",
+      "quote": "USD",
+      "status": "active"
+    },
+    "PLUME/USD": {
+      "base": "PLUME",
+      "quote": "USD",
+      "status": "active"
+    },
+    "PNG/USD": {
+      "base": "PNG",
+      "quote": "USD",
+      "status": "active"
+    },
+    "PNUT/USD": {
+      "base": "PNUT",
+      "quote": "USD",
+      "status": "active"
+    },
+    "POL/EUR": {
+      "base": "POL",
+      "quote": "EUR",
+      "status": "active"
+    },
+    "POL/USD": {
+      "base": "POL",
+      "quote": "USD",
+      "status": "active"
+    },
+    "POLS/USD": {
+      "base": "POLS",
+      "quote": "USD",
+      "status": "active"
+    },
+    "POND/USD": {
+      "base": "POND",
+      "quote": "USD",
+      "status": "active"
+    },
+    "PONKE/USD": {
+      "base": "PONKE",
+      "quote": "USD",
+      "status": "active"
+    },
+    "POPCAT/USD": {
+      "base": "POPCAT",
+      "quote": "USD",
+      "status": "active"
+    },
+    "POWR/USD": {
+      "base": "POWR",
+      "quote": "USD",
+      "status": "active"
+    },
+    "PRCL/USD": {
+      "base": "PRCL",
+      "quote": "USD",
+      "status": "active"
+    },
+    "PRIME/USD": {
+      "base": "PRIME",
+      "quote": "USD",
+      "status": "active"
+    },
+    "PRO/USD": {
+      "base": "PRO",
+      "quote": "USD",
+      "status": "active"
+    },
+    "PROMPT/USD": {
+      "base": "PROMPT",
+      "quote": "USD",
+      "status": "active"
+    },
+    "PROVE/USD": {
+      "base": "PROVE",
+      "quote": "USD",
+      "status": "active"
+    },
+    "PUMP/USD": {
+      "base": "PUMP",
+      "quote": "USD",
+      "status": "active"
+    },
+    "PUNDIX/USD": {
+      "base": "PUNDIX",
+      "quote": "USD",
+      "status": "active"
+    },
+    "PYR/USD": {
+      "base": "PYR",
+      "quote": "USD",
+      "status": "active"
+    },
+    "PYTH/USD": {
+      "base": "PYTH",
+      "quote": "USD",
+      "status": "active"
+    },
+    "QI/USD": {
+      "base": "QI",
+      "quote": "USD",
+      "status": "active"
+    },
+    "QNT/USD": {
+      "base": "QNT",
+      "quote": "USD",
+      "status": "active"
+    },
+    "RAD/USD": {
+      "base": "RAD",
+      "quote": "USD",
+      "status": "active"
+    },
+    "RARE/USD": {
+      "base": "RARE",
+      "quote": "USD",
+      "status": "active"
+    },
+    "RARI/USD": {
+      "base": "RARI",
+      "quote": "USD",
+      "status": "active"
+    },
+    "RAY/USD": {
+      "base": "RAY",
+      "quote": "USD",
+      "status": "active"
+    },
+    "RED/USD": {
+      "base": "RED",
+      "quote": "USD",
+      "status": "active"
+    },
+    "RENDER/EUR": {
+      "base": "RENDER",
+      "quote": "EUR",
+      "status": "active"
+    },
+    "RENDER/USD": {
+      "base": "RENDER",
+      "quote": "USD",
+      "status": "active"
+    },
+    "REQ/USD": {
+      "base": "REQ",
+      "quote": "USD",
+      "status": "active"
+    },
+    "REZ/USD": {
+      "base": "REZ",
+      "quote": "USD",
+      "status": "active"
+    },
+    "RLC/USD": {
+      "base": "RLC",
+      "quote": "USD",
+      "status": "active"
+    },
+    "RLS/USD": {
+      "base": "RLS",
+      "quote": "USD",
+      "status": "active"
+    },
+    "ROSE/USD": {
+      "base": "ROSE",
+      "quote": "USD",
+      "status": "active"
+    },
+    "RPL/USD": {
+      "base": "RPL",
+      "quote": "USD",
+      "status": "active"
+    },
+    "RSC/USD": {
+      "base": "RSC",
+      "quote": "USD",
+      "status": "active"
+    },
+    "RSR/USD": {
+      "base": "RSR",
+      "quote": "USD",
+      "status": "active"
+    },
+    "SAFE/USD": {
+      "base": "SAFE",
+      "quote": "USD",
+      "status": "active"
+    },
+    "SAND/USD": {
+      "base": "SAND",
+      "quote": "USD",
+      "status": "active"
+    },
+    "SD/USD": {
+      "base": "SD",
+      "quote": "USD",
+      "status": "active"
+    },
+    "SEI/EUR": {
+      "base": "SEI",
+      "quote": "EUR",
+      "status": "active"
+    },
+    "SEI/USD": {
+      "base": "SEI",
+      "quote": "USD",
+      "status": "active"
+    },
+    "SENT/USD": {
+      "base": "SENT",
+      "quote": "USD",
+      "status": "active"
+    },
+    "SHDW/USD": {
+      "base": "SHDW",
+      "quote": "USD",
+      "status": "active"
+    },
+    "SHIB/EUR": {
+      "base": "SHIB",
+      "quote": "EUR",
+      "status": "active"
+    },
+    "SHIB/USD": {
+      "base": "SHIB",
+      "quote": "USD",
+      "status": "active"
+    },
+    "SHIB/USDC": {
+      "base": "SHIB",
+      "quote": "USDC",
+      "status": "active"
+    },
+    "SHPING/USD": {
+      "base": "SHPING",
+      "quote": "USD",
+      "status": "active"
+    },
+    "SKL/USD": {
+      "base": "SKL",
+      "quote": "USD",
+      "status": "active"
+    },
+    "SKY/USD": {
+      "base": "SKY",
+      "quote": "USD",
+      "status": "active"
+    },
+    "SNX/USD": {
+      "base": "SNX",
+      "quote": "USD",
+      "status": "active"
+    },
+    "SOL/EUR": {
+      "base": "SOL",
+      "quote": "EUR",
+      "status": "active"
+    },
+    "SOL/USD": {
+      "base": "SOL",
+      "quote": "USD",
+      "status": "active"
+    },
+    "SOL/USDC": {
+      "base": "SOL",
+      "quote": "USDC",
+      "status": "active"
+    },
+    "SOMI/USD": {
+      "base": "SOMI",
+      "quote": "USD",
+      "status": "active"
+    },
+    "SPA/USD": {
+      "base": "SPA",
+      "quote": "USD",
+      "status": "active"
+    },
+    "SPELL/USD": {
+      "base": "SPELL",
+      "quote": "USD",
+      "status": "active"
+    },
+    "SPK/USD": {
+      "base": "SPK",
+      "quote": "USD",
+      "status": "active"
+    },
+    "SPX/EUR": {
+      "base": "SPX",
+      "quote": "EUR",
+      "status": "active"
+    },
+    "SPX/USD": {
+      "base": "SPX",
+      "quote": "USD",
+      "status": "active"
+    },
+    "SQD/USD": {
+      "base": "SQD",
+      "quote": "USD",
+      "status": "active"
+    },
+    "STG/USD": {
+      "base": "STG",
+      "quote": "USD",
+      "status": "active"
+    },
+    "STORJ/USD": {
+      "base": "STORJ",
+      "quote": "USD",
+      "status": "active"
+    },
+    "STRK/EUR": {
+      "base": "STRK",
+      "quote": "EUR",
+      "status": "active"
+    },
+    "STRK/USD": {
+      "base": "STRK",
+      "quote": "USD",
+      "status": "active"
+    },
+    "STX/EUR": {
+      "base": "STX",
+      "quote": "EUR",
+      "status": "active"
+    },
+    "STX/USD": {
+      "base": "STX",
+      "quote": "USD",
+      "status": "active"
+    },
+    "SUI/EUR": {
+      "base": "SUI",
+      "quote": "EUR",
+      "status": "active"
+    },
+    "SUI/USD": {
+      "base": "SUI",
+      "quote": "USD",
+      "status": "active"
+    },
+    "SUI/USDC": {
+      "base": "SUI",
+      "quote": "USDC",
+      "status": "active"
+    },
+    "SUKU/USD": {
+      "base": "SUKU",
+      "quote": "USD",
+      "status": "active"
+    },
+    "SUPER/USD": {
+      "base": "SUPER",
+      "quote": "USD",
+      "status": "active"
+    },
+    "SUSHI/USD": {
+      "base": "SUSHI",
+      "quote": "USD",
+      "status": "active"
+    },
+    "SWELL/USD": {
+      "base": "SWELL",
+      "quote": "USD",
+      "status": "active"
+    },
+    "SWFTC/USD": {
+      "base": "SWFTC",
+      "quote": "USD",
+      "status": "active"
+    },
+    "SXT/USD": {
+      "base": "SXT",
+      "quote": "USD",
+      "status": "active"
+    },
+    "SYRUP/USD": {
+      "base": "SYRUP",
+      "quote": "USD",
+      "status": "active"
+    },
+    "T/USD": {
+      "base": "T",
+      "quote": "USD",
+      "status": "active"
+    },
+    "TAIKO/USD": {
+      "base": "TAIKO",
+      "quote": "USD",
+      "status": "active"
+    },
+    "TIA/EUR": {
+      "base": "TIA",
+      "quote": "EUR",
+      "status": "active"
+    },
+    "TIA/USD": {
+      "base": "TIA",
+      "quote": "USD",
+      "status": "active"
+    },
+    "TNSR/USD": {
+      "base": "TNSR",
+      "quote": "USD",
+      "status": "active"
+    },
+    "TOKEN/USD": {
+      "base": "TOKEN",
+      "quote": "USD",
+      "status": "active"
+    },
+    "TON/EUR": {
+      "base": "TON",
+      "quote": "EUR",
+      "status": "active"
+    },
+    "TON/USD": {
+      "base": "TON",
+      "quote": "USD",
+      "status": "active"
+    },
+    "TON/USDC": {
+      "base": "TON",
+      "quote": "USDC",
+      "status": "active"
+    },
+    "TOSHI/USD": {
+      "base": "TOSHI",
+      "quote": "USD",
+      "status": "active"
+    },
+    "TRAC/USD": {
+      "base": "TRAC",
+      "quote": "USD",
+      "status": "active"
+    },
+    "TRB/USD": {
+      "base": "TRB",
+      "quote": "USD",
+      "status": "active"
+    },
+    "TREE/USD": {
+      "base": "TREE",
+      "quote": "USD",
+      "status": "active"
+    },
+    "TRU/USD": {
+      "base": "TRU",
+      "quote": "USD",
+      "status": "active"
+    },
+    "TRUMP/EUR": {
+      "base": "TRUMP",
+      "quote": "EUR",
+      "status": "active"
+    },
+    "TRUMP/USD": {
+      "base": "TRUMP",
+      "quote": "USD",
+      "status": "active"
+    },
+    "TRUMP/USDC": {
+      "base": "TRUMP",
+      "quote": "USDC",
+      "status": "active"
+    },
+    "TRX/EUR": {
+      "base": "TRX",
+      "quote": "EUR",
+      "status": "active"
+    },
+    "TRX/USD": {
+      "base": "TRX",
+      "quote": "USD",
+      "status": "active"
+    },
+    "TRX/USDC": {
+      "base": "TRX",
+      "quote": "USDC",
+      "status": "active"
+    },
+    "TURBO/USD": {
+      "base": "TURBO",
+      "quote": "USD",
+      "status": "active"
+    },
+    "UMA/USD": {
+      "base": "UMA",
+      "quote": "USD",
+      "status": "active"
+    },
+    "UNI/EUR": {
+      "base": "UNI",
+      "quote": "EUR",
+      "status": "active"
+    },
+    "UNI/USD": {
+      "base": "UNI",
+      "quote": "USD",
+      "status": "active"
+    },
+    "USDC/EUR": {
+      "base": "USDC",
+      "quote": "EUR",
+      "status": "active"
+    },
+    "USDC/USD": {
+      "base": "USDC",
+      "quote": "USD",
+      "status": "active"
+    },
+    "VELO/USD": {
+      "base": "VELO",
+      "quote": "USD",
+      "status": "active"
+    },
+    "VET/USD": {
+      "base": "VET",
+      "quote": "USD",
+      "status": "active"
+    },
+    "VOXEL/USD": {
+      "base": "VOXEL",
+      "quote": "USD",
+      "status": "active"
+    },
+    "VTHO/USD": {
+      "base": "VTHO",
+      "quote": "USD",
+      "status": "active"
+    },
+    "VVV/EUR": {
+      "base": "VVV",
+      "quote": "EUR",
+      "status": "active"
+    },
+    "VVV/USD": {
+      "base": "VVV",
+      "quote": "USD",
+      "status": "active"
+    },
+    "W/USD": {
+      "base": "W",
+      "quote": "USD",
+      "status": "active"
+    },
+    "WAL/USD": {
+      "base": "WAL",
+      "quote": "USD",
+      "status": "active"
+    },
+    "WIF/EUR": {
+      "base": "WIF",
+      "quote": "EUR",
+      "status": "active"
+    },
+    "WIF/USD": {
+      "base": "WIF",
+      "quote": "USD",
+      "status": "active"
+    },
+    "WLD/EUR": {
+      "base": "WLD",
+      "quote": "EUR",
+      "status": "active"
+    },
+    "WLD/USD": {
+      "base": "WLD",
+      "quote": "USD",
+      "status": "active"
+    },
+    "WLFI/USD": {
+      "base": "WLFI",
+      "quote": "USD",
+      "status": "active"
+    },
+    "WOO/USD": {
+      "base": "WOO",
+      "quote": "USD",
+      "status": "active"
+    },
+    "XAN/USD": {
+      "base": "XAN",
+      "quote": "USD",
+      "status": "active"
+    },
+    "XCN/USD": {
+      "base": "XCN",
+      "quote": "USD",
+      "status": "active"
+    },
+    "XDC/USD": {
+      "base": "XDC",
+      "quote": "USD",
+      "status": "active"
+    },
+    "XLM/EUR": {
+      "base": "XLM",
+      "quote": "EUR",
+      "status": "active"
+    },
+    "XLM/USD": {
+      "base": "XLM",
+      "quote": "USD",
+      "status": "active"
+    },
+    "XLM/USDC": {
+      "base": "XLM",
+      "quote": "USDC",
+      "status": "active"
+    },
+    "XPL/USD": {
+      "base": "XPL",
+      "quote": "USD",
+      "status": "active"
+    },
+    "XRP/EUR": {
+      "base": "XRP",
+      "quote": "EUR",
+      "status": "active"
+    },
+    "XRP/USD": {
+      "base": "XRP",
+      "quote": "USD",
+      "status": "active"
+    },
+    "XRP/USDC": {
+      "base": "XRP",
+      "quote": "USDC",
+      "status": "active"
+    },
+    "XTZ/USD": {
+      "base": "XTZ",
+      "quote": "USD",
+      "status": "active"
+    },
+    "XYO/USD": {
+      "base": "XYO",
+      "quote": "USD",
+      "status": "active"
+    },
+    "YFI/USD": {
+      "base": "YFI",
+      "quote": "USD",
+      "status": "active"
+    },
+    "ZAMA/USD": {
+      "base": "ZAMA",
+      "quote": "USD",
+      "status": "active"
+    },
+    "ZEN/USD": {
+      "base": "ZEN",
+      "quote": "USD",
+      "status": "active"
+    },
+    "ZK/USD": {
+      "base": "ZK",
+      "quote": "USD",
+      "status": "active"
+    },
+    "ZKC/USD": {
+      "base": "ZKC",
+      "quote": "USD",
+      "status": "active"
+    },
+    "ZKJ/USD": {
+      "base": "ZKJ",
+      "quote": "USD",
+      "status": "active"
+    },
+    "ZORA/USD": {
+      "base": "ZORA",
+      "quote": "USD",
+      "status": "active"
+    },
+    "ZRO/EUR": {
+      "base": "ZRO",
+      "quote": "EUR",
+      "status": "active"
+    },
+    "ZRO/USD": {
+      "base": "ZRO",
+      "quote": "USD",
+      "status": "active"
+    },
+    "ZRX/USD": {
+      "base": "ZRX",
+      "quote": "USD",
+      "status": "active"
+    }
+  },
+  "content_sha256": "72d38fd9d448b265d1f619151fd306db6550c1da31d3b2027a63993516f71af6"
+}
