@@ -91,7 +91,13 @@ def build_snapshot(
             or not isinstance(entry.get("asset_type"), str)
             or not isinstance(entry.get("status"), str)
         ):
-            raise SnapshotError(f"Invalid currency entry: {symbol!r}")
+            details = (
+                f"keys={sorted(entry) if isinstance(entry, dict) else type(entry).__name__}, "
+                f"symbol={entry.get('symbol')!r}, asset_type={entry.get('asset_type')!r}, "
+                f"status={entry.get('status')!r}"
+                if isinstance(entry, dict) else type(entry).__name__
+            )
+            raise SnapshotError(f"Invalid currency entry: {symbol!r} ({details})")
         currencies[symbol] = entry
 
     pairs: dict[str, dict[str, str]] = {}
