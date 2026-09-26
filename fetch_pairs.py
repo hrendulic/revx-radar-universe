@@ -87,7 +87,8 @@ def build_snapshot(
         if (
             not isinstance(symbol, str)
             or not isinstance(entry, dict)
-            or entry.get("symbol") != symbol
+            or not isinstance(entry.get("symbol"), str)
+            or not entry["symbol"]
             or not isinstance(entry.get("asset_type"), str)
             or not isinstance(entry.get("status"), str)
         ):
