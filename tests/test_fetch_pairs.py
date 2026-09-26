@@ -17,6 +17,7 @@ class SnapshotTests(unittest.TestCase):
             symbol: {"symbol": symbol, "asset_type": "crypto" if symbol in ("BTC", "ETH", "OLD") else "fiat", "status": "active"}
             for symbol in ("BTC", "ETH", "OLD", "USD", "EUR")
         }
+        self.currencies["USD"]["symbol"] = "$"  # Fiat display symbol differs from the map key in the live API.
 
     def snapshot(self, pairs=None, previous=None):
         return build_snapshot(pairs if pairs is not None else self.pairs, self.currencies, previous, min_pairs=1, min_assets=1)
