@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "region": "EEA",
-  "updated_at": "2026-09-28T03:39:22Z",
+  "updated_at": "2026-09-29T03:35:00Z",
   "source": {
     "pairs": "https://revx.revolut.com/api/1.0/public/configuration/pairs?region=EEA",
     "currencies": "https://revx.revolut.com/api/1.0/public/configuration/currencies?region=EEA"
