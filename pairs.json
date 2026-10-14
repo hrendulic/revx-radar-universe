@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "region": "EEA",
-  "updated_at": "2026-10-13T03:42:00Z",
+  "updated_at": "2026-10-14T03:32:29Z",
   "source": {
     "pairs": "https://revx.revolut.com/api/1.0/public/configuration/pairs?region=EEA",
     "currencies": "https://revx.revolut.com/api/1.0/public/configuration/currencies?region=EEA"
   },
-  "pair_count": 384,
-  "active_pair_count": 384,
-  "asset_count": 300,
+  "pair_count": 379,
+  "active_pair_count": 379,
+  "asset_count": 295,
   "assets": [
     "1INCH",
     "2Z",
@@ -89,7 +89,6 @@
     "DOGE",
     "DOGINME",
     "DOGS",
-    "DOLO",
     "DOT",
     "DRIFT",
     "DYDX",
@@ -110,7 +109,6 @@
     "FLOKI",
     "FLOW",
     "FLR",
-    "FLUID",
     "FORT",
     "FORTH",
     "GALA",
@@ -132,14 +130,12 @@
     "HOPR",
     "HYPE",
     "ICP",
-    "IDEX",
     "IDOS",
     "ILV",
     "IMU",
     "IMX",
     "INJ",
     "IO",
-    "IOTX",
     "IP",
     "JASMY",
     "JTO",
@@ -247,7 +243,6 @@
     "SKY",
     "SNX",
     "SOL",
-    "SOMI",
     "SPA",
     "SPELL",
     "SPK",
@@ -415,7 +410,6 @@
     "DOGE/USDC",
     "DOGINME/USD",
     "DOGS/USD",
-    "DOLO/USD",
     "DOT/EUR",
     "DOT/USD",
     "DOT/USDC",
@@ -447,7 +441,6 @@
     "FLOKI/USD",
     "FLOW/USD",
     "FLR/USD",
-    "FLUID/USD",
     "FORT/USD",
     "FORTH/USD",
     "GALA/USD",
@@ -473,7 +466,6 @@
     "HYPE/USD",
     "ICP/EUR",
     "ICP/USD",
-    "IDEX/USD",
     "IDOS/USD",
     "ILV/USD",
     "IMU/USD",
@@ -481,7 +473,6 @@
     "INJ/EUR",
     "INJ/USD",
     "IO/USD",
-    "IOTX/USD",
     "IP/USD",
     "JASMY/EUR",
     "JASMY/USD",
@@ -611,7 +602,6 @@
     "SOL/EUR",
     "SOL/USD",
     "SOL/USDC",
-    "SOMI/USD",
     "SPA/USD",
     "SPELL/USD",
     "SPK/USD",
@@ -1213,11 +1203,6 @@
       "quote": "USD",
       "status": "active"
     },
-    "DOLO/USD": {
-      "base": "DOLO",
-      "quote": "USD",
-      "status": "active"
-    },
     "DOT/EUR": {
       "base": "DOT",
       "quote": "EUR",
@@ -1373,11 +1358,6 @@
       "quote": "USD",
       "status": "active"
     },
-    "FLUID/USD": {
-      "base": "FLUID",
-      "quote": "USD",
-      "status": "active"
-    },
     "FORT/USD": {
       "base": "FORT",
       "quote": "USD",
@@ -1503,11 +1483,6 @@
       "quote": "USD",
       "status": "active"
     },
-    "IDEX/USD": {
-      "base": "IDEX",
-      "quote": "USD",
-      "status": "active"
-    },
     "IDOS/USD": {
       "base": "IDOS",
       "quote": "USD",
@@ -1540,11 +1515,6 @@
     },
     "IO/USD": {
       "base": "IO",
-      "quote": "USD",
-      "status": "active"
-    },
-    "IOTX/USD": {
-      "base": "IOTX",
       "quote": "USD",
       "status": "active"
     },
@@ -2193,11 +2163,6 @@
       "quote": "USDC",
       "status": "active"
     },
-    "SOMI/USD": {
-      "base": "SOMI",
-      "quote": "USD",
-      "status": "active"
-    },
     "SPA/USD": {
       "base": "SPA",
       "quote": "USD",
@@ -2619,5 +2584,5 @@
       "status": "active"
     }
   },
-  "content_sha256": "72d38fd9d448b265d1f619151fd306db6550c1da31d3b2027a63993516f71af6"
+  "content_sha256": "9912e11cc8f6888ff3d11d4a3d9868890d60f403f699f3592f1b9eb7e32aedf6"
 }
