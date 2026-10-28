@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "region": "EEA",
-  "updated_at": "2026-10-27T03:34:46Z",
+  "updated_at": "2026-10-28T03:25:57Z",
   "source": {
     "pairs": "https://revx.revolut.com/api/1.0/public/configuration/pairs?region=EEA",
     "currencies": "https://revx.revolut.com/api/1.0/public/configuration/currencies?region=EEA"
   },
-  "pair_count": 379,
-  "active_pair_count": 379,
-  "asset_count": 295,
+  "pair_count": 375,
+  "active_pair_count": 375,
+  "asset_count": 291,
   "assets": [
     "1INCH",
     "2Z",
@@ -120,7 +120,6 @@
     "GODS",
     "GRASS",
     "GRT",
-    "GST",
     "GTC",
     "HBAR",
     "HFT",
@@ -213,7 +212,6 @@
     "PROVE",
     "PUMP",
     "PUNDIX",
-    "PYR",
     "PYTH",
     "QI",
     "QNT",
@@ -277,9 +275,7 @@
     "UMA",
     "UNI",
     "USDC",
-    "VELO",
     "VET",
-    "VOXEL",
     "VTHO",
     "VVV",
     "W",
@@ -452,7 +448,6 @@
     "GODS/USD",
     "GRASS/USD",
     "GRT/USD",
-    "GST/USD",
     "GTC/USD",
     "HBAR/EUR",
     "HBAR/USD",
@@ -566,7 +561,6 @@
     "PROVE/USD",
     "PUMP/USD",
     "PUNDIX/USD",
-    "PYR/USD",
     "PYTH/USD",
     "QI/USD",
     "QNT/USD",
@@ -650,9 +644,7 @@
     "UNI/USD",
     "USDC/EUR",
     "USDC/USD",
-    "VELO/USD",
     "VET/USD",
-    "VOXEL/USD",
     "VTHO/USD",
     "VVV/EUR",
     "VVV/USD",
@@ -1413,11 +1405,6 @@
       "quote": "USD",
       "status": "active"
     },
-    "GST/USD": {
-      "base": "GST",
-      "quote": "USD",
-      "status": "active"
-    },
     "GTC/USD": {
       "base": "GTC",
       "quote": "USD",
@@ -1983,11 +1970,6 @@
       "quote": "USD",
       "status": "active"
     },
-    "PYR/USD": {
-      "base": "PYR",
-      "quote": "USD",
-      "status": "active"
-    },
     "PYTH/USD": {
       "base": "PYTH",
       "quote": "USD",
@@ -2403,18 +2385,8 @@
       "quote": "USD",
       "status": "active"
     },
-    "VELO/USD": {
-      "base": "VELO",
-      "quote": "USD",
-      "status": "active"
-    },
     "VET/USD": {
       "base": "VET",
-      "quote": "USD",
-      "status": "active"
-    },
-    "VOXEL/USD": {
-      "base": "VOXEL",
       "quote": "USD",
       "status": "active"
     },
@@ -2584,5 +2556,5 @@
       "status": "active"
     }
   },
-  "content_sha256": "9912e11cc8f6888ff3d11d4a3d9868890d60f403f699f3592f1b9eb7e32aedf6"
+  "content_sha256": "10e0b063bf5276117255591b605b2d74c93e58eba57b0ace3dc2681ddf9d478d"
 }
