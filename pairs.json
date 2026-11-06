@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "region": "EEA",
-  "updated_at": "2026-11-05T03:22:31Z",
+  "updated_at": "2026-11-06T03:22:20Z",
   "source": {
     "pairs": "https://revx.revolut.com/api/1.0/public/configuration/pairs?region=EEA",
     "currencies": "https://revx.revolut.com/api/1.0/public/configuration/currencies?region=EEA"
@@ -110,7 +110,6 @@
     "FLOW",
     "FLR",
     "FORT",
-    "FORTH",
     "GALA",
     "GFI",
     "GHST",
@@ -121,6 +120,7 @@
     "GRASS",
     "GRT",
     "GTC",
+    "GUN",
     "HBAR",
     "HFT",
     "HIGH",
@@ -133,6 +133,7 @@
     "ILV",
     "IMU",
     "IMX",
+    "INIT",
     "INJ",
     "IO",
     "IP",
@@ -179,7 +180,6 @@
     "NCT",
     "NEAR",
     "NEIRO",
-    "NEON",
     "NKN",
     "NMR",
     "NOT",
@@ -438,7 +438,6 @@
     "FLOW/USD",
     "FLR/USD",
     "FORT/USD",
-    "FORTH/USD",
     "GALA/USD",
     "GFI/USD",
     "GHST/USD",
@@ -449,6 +448,7 @@
     "GRASS/USD",
     "GRT/USD",
     "GTC/USD",
+    "GUN/USD",
     "HBAR/EUR",
     "HBAR/USD",
     "HBAR/USDC",
@@ -465,6 +465,7 @@
     "ILV/USD",
     "IMU/USD",
     "IMX/USD",
+    "INIT/USD",
     "INJ/EUR",
     "INJ/USD",
     "IO/USD",
@@ -521,7 +522,6 @@
     "NEAR/EUR",
     "NEAR/USD",
     "NEIRO/USD",
-    "NEON/USD",
     "NKN/USD",
     "NMR/USD",
     "NOT/USD",
@@ -1355,11 +1355,6 @@
       "quote": "USD",
       "status": "active"
     },
-    "FORTH/USD": {
-      "base": "FORTH",
-      "quote": "USD",
-      "status": "active"
-    },
     "GALA/USD": {
       "base": "GALA",
       "quote": "USD",
@@ -1407,6 +1402,11 @@
     },
     "GTC/USD": {
       "base": "GTC",
+      "quote": "USD",
+      "status": "active"
+    },
+    "GUN/USD": {
+      "base": "GUN",
       "quote": "USD",
       "status": "active"
     },
@@ -1487,6 +1487,11 @@
     },
     "IMX/USD": {
       "base": "IMX",
+      "quote": "USD",
+      "status": "active"
+    },
+    "INIT/USD": {
+      "base": "INIT",
       "quote": "USD",
       "status": "active"
     },
@@ -1767,11 +1772,6 @@
     },
     "NEIRO/USD": {
       "base": "NEIRO",
-      "quote": "USD",
-      "status": "active"
-    },
-    "NEON/USD": {
-      "base": "NEON",
       "quote": "USD",
       "status": "active"
     },
@@ -2556,5 +2556,5 @@
       "status": "active"
     }
   },
-  "content_sha256": "10e0b063bf5276117255591b605b2d74c93e58eba57b0ace3dc2681ddf9d478d"
+  "content_sha256": "20442ed88529402705dbef1a237d0073b1449bdc3b9088a9a9de94d1fd6855f1"
 }
