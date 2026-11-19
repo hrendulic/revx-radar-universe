@@ -1,15 +1,16 @@
 {
   "schema_version": 1,
   "region": "EEA",
-  "updated_at": "2026-11-18T11:45:53Z",
+  "updated_at": "2026-11-19T11:42:46Z",
   "source": {
     "pairs": "https://revx.revolut.com/api/1.0/public/configuration/pairs?region=EEA",
     "currencies": "https://revx.revolut.com/api/1.0/public/configuration/currencies?region=EEA"
   },
-  "pair_count": 375,
-  "active_pair_count": 375,
-  "asset_count": 291,
+  "pair_count": 403,
+  "active_pair_count": 403,
+  "asset_count": 319,
   "assets": [
+    "0G",
     "1INCH",
     "2Z",
     "A8",
@@ -29,6 +30,7 @@
     "ALEPH",
     "ALGO",
     "ALICE",
+    "ALLO",
     "AMP",
     "ANKR",
     "APE",
@@ -50,8 +52,10 @@
     "AWE",
     "AXS",
     "B3",
+    "BABY",
     "BAL",
     "BAND",
+    "BASED",
     "BAT",
     "BCH",
     "BEAM",
@@ -59,15 +63,20 @@
     "BERA",
     "BICO",
     "BIGTIME",
+    "BILL",
+    "BIO",
     "BLUR",
     "BLZ",
     "BNB",
     "BNT",
     "BOBA",
     "BONK",
+    "BREV",
     "BTC",
     "BTRST",
     "C98",
+    "CAKE",
+    "CAP",
     "CC",
     "CELO",
     "CELR",
@@ -98,8 +107,10 @@
     "ELA",
     "ENA",
     "ENS",
+    "ENSO",
     "ETC",
     "ETH",
+    "ETHFI",
     "EUL",
     "FAI",
     "FARM",
@@ -117,6 +128,7 @@
     "GLM",
     "GMT",
     "GODS",
+    "GOMINING",
     "GRASS",
     "GRT",
     "GTC",
@@ -128,6 +140,8 @@
     "HONEY",
     "HOPR",
     "HYPE",
+    "HYPER",
+    "ICNT",
     "ICP",
     "IDOS",
     "ILV",
@@ -142,8 +156,11 @@
     "JUP",
     "KAITO",
     "KARRAT",
+    "KAT",
     "KAVA",
     "KERNEL",
+    "KITE",
+    "KMNO",
     "KNC",
     "KRL",
     "KSM",
@@ -177,11 +194,13 @@
     "MOODENG",
     "MORPHO",
     "MSOL",
+    "MYX",
     "NCT",
     "NEAR",
     "NEIRO",
     "NKN",
     "NMR",
+    "NOM",
     "NOT",
     "OCEAN",
     "OFC",
@@ -207,6 +226,7 @@
     "POWR",
     "PRCL",
     "PRIME",
+    "PRL",
     "PRO",
     "PROMPT",
     "PROVE",
@@ -225,10 +245,12 @@
     "REZ",
     "RLC",
     "RLS",
+    "ROBO",
     "ROSE",
     "RPL",
     "RSC",
     "RSR",
+    "S",
     "SAFE",
     "SAND",
     "SD",
@@ -237,7 +259,9 @@
     "SHDW",
     "SHIB",
     "SHPING",
+    "SHX",
     "SKL",
+    "SKR",
     "SKY",
     "SNX",
     "SOL",
@@ -260,7 +284,9 @@
     "SYRUP",
     "T",
     "TAIKO",
+    "THQ",
     "TIA",
+    "TLM",
     "TNSR",
     "TOKEN",
     "TON",
@@ -283,6 +309,7 @@
     "WIF",
     "WLD",
     "WLFI",
+    "WMTX",
     "WOO",
     "XAN",
     "XCN",
@@ -298,11 +325,13 @@
     "ZK",
     "ZKC",
     "ZKJ",
+    "ZKP",
     "ZORA",
     "ZRO",
     "ZRX"
   ],
   "active_pairs": [
+    "0G/USD",
     "1INCH/EUR",
     "1INCH/USD",
     "2Z/USD",
@@ -327,6 +356,7 @@
     "ALGO/EUR",
     "ALGO/USD",
     "ALICE/USD",
+    "ALLO/USD",
     "AMP/USD",
     "ANKR/USD",
     "APE/USD",
@@ -354,8 +384,10 @@
     "AWE/USD",
     "AXS/USD",
     "B3/USD",
+    "BABY/USD",
     "BAL/USD",
     "BAND/USD",
+    "BASED/USD",
     "BAT/USD",
     "BCH/EUR",
     "BCH/USD",
@@ -365,6 +397,8 @@
     "BERA/USD",
     "BICO/USD",
     "BIGTIME/USD",
+    "BILL/USD",
+    "BIO/USD",
     "BLUR/USD",
     "BLZ/USD",
     "BNB/EUR",
@@ -375,11 +409,14 @@
     "BONK/EUR",
     "BONK/USD",
     "BONK/USDC",
+    "BREV/USD",
     "BTC/EUR",
     "BTC/USD",
     "BTC/USDC",
     "BTRST/USD",
     "C98/USD",
+    "CAKE/USD",
+    "CAP/USD",
     "CC/USD",
     "CELO/USD",
     "CELR/USD",
@@ -419,11 +456,13 @@
     "ENA/USD",
     "ENA/USDC",
     "ENS/USD",
+    "ENSO/USD",
     "ETC/EUR",
     "ETC/USD",
     "ETH/EUR",
     "ETH/USD",
     "ETH/USDC",
+    "ETHFI/USD",
     "EUL/USD",
     "FAI/USD",
     "FARM/USD",
@@ -445,6 +484,7 @@
     "GLM/USD",
     "GMT/USD",
     "GODS/USD",
+    "GOMINING/USD",
     "GRASS/USD",
     "GRT/USD",
     "GTC/USD",
@@ -459,6 +499,8 @@
     "HOPR/USD",
     "HYPE/EUR",
     "HYPE/USD",
+    "HYPER/USD",
+    "ICNT/USD",
     "ICP/EUR",
     "ICP/USD",
     "IDOS/USD",
@@ -477,8 +519,11 @@
     "JUP/USDC",
     "KAITO/USD",
     "KARRAT/USD",
+    "KAT/USD",
     "KAVA/USD",
     "KERNEL/USD",
+    "KITE/USD",
+    "KMNO/USD",
     "KNC/USD",
     "KRL/USD",
     "KSM/USD",
@@ -518,12 +563,14 @@
     "MOODENG/USD",
     "MORPHO/USD",
     "MSOL/USD",
+    "MYX/USD",
     "NCT/USD",
     "NEAR/EUR",
     "NEAR/USD",
     "NEIRO/USD",
     "NKN/USD",
     "NMR/USD",
+    "NOM/USD",
     "NOT/USD",
     "OCEAN/USD",
     "OFC/USD",
@@ -556,6 +603,7 @@
     "POWR/USD",
     "PRCL/USD",
     "PRIME/USD",
+    "PRL/USD",
     "PRO/USD",
     "PROMPT/USD",
     "PROVE/USD",
@@ -575,10 +623,12 @@
     "REZ/USD",
     "RLC/USD",
     "RLS/USD",
+    "ROBO/USD",
     "ROSE/USD",
     "RPL/USD",
     "RSC/USD",
     "RSR/USD",
+    "S/USD",
     "SAFE/USD",
     "SAND/USD",
     "SD/USD",
@@ -590,7 +640,9 @@
     "SHIB/USD",
     "SHIB/USDC",
     "SHPING/USD",
+    "SHX/USD",
     "SKL/USD",
+    "SKR/USD",
     "SKY/USD",
     "SNX/USD",
     "SOL/EUR",
@@ -620,8 +672,10 @@
     "SYRUP/USD",
     "T/USD",
     "TAIKO/USD",
+    "THQ/USD",
     "TIA/EUR",
     "TIA/USD",
+    "TLM/USD",
     "TNSR/USD",
     "TOKEN/USD",
     "TON/EUR",
@@ -655,6 +709,7 @@
     "WLD/EUR",
     "WLD/USD",
     "WLFI/USD",
+    "WMTX/USD",
     "WOO/USD",
     "XAN/USD",
     "XCN/USD",
@@ -674,12 +729,18 @@
     "ZK/USD",
     "ZKC/USD",
     "ZKJ/USD",
+    "ZKP/USD",
     "ZORA/USD",
     "ZRO/EUR",
     "ZRO/USD",
     "ZRX/USD"
   ],
   "pairs": {
+    "0G/USD": {
+      "base": "0G",
+      "quote": "USD",
+      "status": "active"
+    },
     "1INCH/EUR": {
       "base": "1INCH",
       "quote": "EUR",
@@ -797,6 +858,11 @@
     },
     "ALICE/USD": {
       "base": "ALICE",
+      "quote": "USD",
+      "status": "active"
+    },
+    "ALLO/USD": {
+      "base": "ALLO",
       "quote": "USD",
       "status": "active"
     },
@@ -935,6 +1001,11 @@
       "quote": "USD",
       "status": "active"
     },
+    "BABY/USD": {
+      "base": "BABY",
+      "quote": "USD",
+      "status": "active"
+    },
     "BAL/USD": {
       "base": "BAL",
       "quote": "USD",
@@ -942,6 +1013,11 @@
     },
     "BAND/USD": {
       "base": "BAND",
+      "quote": "USD",
+      "status": "active"
+    },
+    "BASED/USD": {
+      "base": "BASED",
       "quote": "USD",
       "status": "active"
     },
@@ -987,6 +1063,16 @@
     },
     "BIGTIME/USD": {
       "base": "BIGTIME",
+      "quote": "USD",
+      "status": "active"
+    },
+    "BILL/USD": {
+      "base": "BILL",
+      "quote": "USD",
+      "status": "active"
+    },
+    "BIO/USD": {
+      "base": "BIO",
       "quote": "USD",
       "status": "active"
     },
@@ -1040,6 +1126,11 @@
       "quote": "USDC",
       "status": "active"
     },
+    "BREV/USD": {
+      "base": "BREV",
+      "quote": "USD",
+      "status": "active"
+    },
     "BTC/EUR": {
       "base": "BTC",
       "quote": "EUR",
@@ -1062,6 +1153,16 @@
     },
     "C98/USD": {
       "base": "C98",
+      "quote": "USD",
+      "status": "active"
+    },
+    "CAKE/USD": {
+      "base": "CAKE",
+      "quote": "USD",
+      "status": "active"
+    },
+    "CAP/USD": {
+      "base": "CAP",
       "quote": "USD",
       "status": "active"
     },
@@ -1260,6 +1361,11 @@
       "quote": "USD",
       "status": "active"
     },
+    "ENSO/USD": {
+      "base": "ENSO",
+      "quote": "USD",
+      "status": "active"
+    },
     "ETC/EUR": {
       "base": "ETC",
       "quote": "EUR",
@@ -1283,6 +1389,11 @@
     "ETH/USDC": {
       "base": "ETH",
       "quote": "USDC",
+      "status": "active"
+    },
+    "ETHFI/USD": {
+      "base": "ETHFI",
+      "quote": "USD",
       "status": "active"
     },
     "EUL/USD": {
@@ -1390,6 +1501,11 @@
       "quote": "USD",
       "status": "active"
     },
+    "GOMINING/USD": {
+      "base": "GOMINING",
+      "quote": "USD",
+      "status": "active"
+    },
     "GRASS/USD": {
       "base": "GRASS",
       "quote": "USD",
@@ -1457,6 +1573,16 @@
     },
     "HYPE/USD": {
       "base": "HYPE",
+      "quote": "USD",
+      "status": "active"
+    },
+    "HYPER/USD": {
+      "base": "HYPER",
+      "quote": "USD",
+      "status": "active"
+    },
+    "ICNT/USD": {
+      "base": "ICNT",
       "quote": "USD",
       "status": "active"
     },
@@ -1550,6 +1676,11 @@
       "quote": "USD",
       "status": "active"
     },
+    "KAT/USD": {
+      "base": "KAT",
+      "quote": "USD",
+      "status": "active"
+    },
     "KAVA/USD": {
       "base": "KAVA",
       "quote": "USD",
@@ -1557,6 +1688,16 @@
     },
     "KERNEL/USD": {
       "base": "KERNEL",
+      "quote": "USD",
+      "status": "active"
+    },
+    "KITE/USD": {
+      "base": "KITE",
+      "quote": "USD",
+      "status": "active"
+    },
+    "KMNO/USD": {
+      "base": "KMNO",
       "quote": "USD",
       "status": "active"
     },
@@ -1755,6 +1896,11 @@
       "quote": "USD",
       "status": "active"
     },
+    "MYX/USD": {
+      "base": "MYX",
+      "quote": "USD",
+      "status": "active"
+    },
     "NCT/USD": {
       "base": "NCT",
       "quote": "USD",
@@ -1782,6 +1928,11 @@
     },
     "NMR/USD": {
       "base": "NMR",
+      "quote": "USD",
+      "status": "active"
+    },
+    "NOM/USD": {
+      "base": "NOM",
       "quote": "USD",
       "status": "active"
     },
@@ -1945,6 +2096,11 @@
       "quote": "USD",
       "status": "active"
     },
+    "PRL/USD": {
+      "base": "PRL",
+      "quote": "USD",
+      "status": "active"
+    },
     "PRO/USD": {
       "base": "PRO",
       "quote": "USD",
@@ -2040,6 +2196,11 @@
       "quote": "USD",
       "status": "active"
     },
+    "ROBO/USD": {
+      "base": "ROBO",
+      "quote": "USD",
+      "status": "active"
+    },
     "ROSE/USD": {
       "base": "ROSE",
       "quote": "USD",
@@ -2057,6 +2218,11 @@
     },
     "RSR/USD": {
       "base": "RSR",
+      "quote": "USD",
+      "status": "active"
+    },
+    "S/USD": {
+      "base": "S",
       "quote": "USD",
       "status": "active"
     },
@@ -2115,8 +2281,18 @@
       "quote": "USD",
       "status": "active"
     },
+    "SHX/USD": {
+      "base": "SHX",
+      "quote": "USD",
+      "status": "active"
+    },
     "SKL/USD": {
       "base": "SKL",
+      "quote": "USD",
+      "status": "active"
+    },
+    "SKR/USD": {
+      "base": "SKR",
       "quote": "USD",
       "status": "active"
     },
@@ -2265,6 +2441,11 @@
       "quote": "USD",
       "status": "active"
     },
+    "THQ/USD": {
+      "base": "THQ",
+      "quote": "USD",
+      "status": "active"
+    },
     "TIA/EUR": {
       "base": "TIA",
       "quote": "EUR",
@@ -2272,6 +2453,11 @@
     },
     "TIA/USD": {
       "base": "TIA",
+      "quote": "USD",
+      "status": "active"
+    },
+    "TLM/USD": {
+      "base": "TLM",
       "quote": "USD",
       "status": "active"
     },
@@ -2440,6 +2626,11 @@
       "quote": "USD",
       "status": "active"
     },
+    "WMTX/USD": {
+      "base": "WMTX",
+      "quote": "USD",
+      "status": "active"
+    },
     "WOO/USD": {
       "base": "WOO",
       "quote": "USD",
@@ -2535,6 +2726,11 @@
       "quote": "USD",
       "status": "active"
     },
+    "ZKP/USD": {
+      "base": "ZKP",
+      "quote": "USD",
+      "status": "active"
+    },
     "ZORA/USD": {
       "base": "ZORA",
       "quote": "USD",
@@ -2556,5 +2752,5 @@
       "status": "active"
     }
   },
-  "content_sha256": "20442ed88529402705dbef1a237d0073b1449bdc3b9088a9a9de94d1fd6855f1"
+  "content_sha256": "0bcb8c5448fcf8ebd1105ec08d0c11490422e3eb55e86df4121600b12c3d7fca"
 }
